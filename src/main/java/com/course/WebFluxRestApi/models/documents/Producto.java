@@ -25,6 +25,7 @@ public class Producto {
     private Date createAt;
 
     @Valid //Para que se apliquen las validaciones que se encuentran en la clase Categoria
+    @NotNull
     private Categoria categoria;
 
     private String foto;
